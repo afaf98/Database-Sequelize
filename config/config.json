@@ -1,10 +1,7 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "database_development",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "url": "postgres://ksbswujm:7l0vbHmcRs7CLt3Hn9cA5-LjjzK7YpSZ@lallah.db.elephantsql.com:5432/ksbswujm",
+    "dialect": "postgresnpx sequelize-cli db:migrate"
   },
   "test": {
     "username": "root",
